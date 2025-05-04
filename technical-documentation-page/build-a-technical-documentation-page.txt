@@ -1,0 +1,183 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+      <a class="nav-link" href="#Control_Flow">Control Flow</a>
+      <a class="nav-link" href="#Functions">Functions</a>
+      <a class="nav-link" href="#Modules_and_Packages">Modules and Packages</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a high-level, interpreted programming language known for its readability and versatility.</p>
+        <p>It supports multiple programming paradigms and is widely used in web development, data analysis, AI, and more.</p>
+        <p>Python code is easy to learn, making it popular among beginners and professionals alike.</p>
+        <p>Its community and large standard library make it a go-to language for rapid development.</p>
+        <p>Python programs are portable and can run across platforms with minimal changes.</p>
+        <code>print("Hello, world!")</code>
+        <ul>
+          <li>Easy syntax</li>
+          <li>Large community</li>
+          <li>Cross-platform</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Variables_and_Data_Types">
+        <header>Variables and Data Types</header>
+        <p>Variables in Python are dynamically typed. You don't need to declare a type.</p>
+        <p>Common data types include int, float, str, list, tuple, dict, and bool.</p>
+        <p>You assign a value using the = operator.</p>
+        <p>Strings can be defined using single or double quotes.</p>
+        <p>Lists are ordered, mutable collections of items.</p>
+        <code>x = 10</code>
+        <code>name = "Alice"</code>
+        <code>is_valid = True</code>
+        <ul>
+          <li>int - Integer numbers</li>
+          <li>str - Textual data</li>
+          <li>bool - Boolean values</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Control_Flow">
+        <header>Control Flow</header>
+        <p>Control flow structures help define how your program executes.</p>
+        <p>Python supports if, elif, else for conditionals.</p>
+        <p>Loops are written using for and while.</p>
+        <p>Indentation is critical to define code blocks.</p>
+        <p>You can use break and continue within loops.</p>
+        <code>if age >= 18:\n    print("Adult")</code>
+        <code>for i in range(5):\n    print(i)</code>
+        <ul>
+          <li>if / elif / else</li>
+          <li>for loops</li>
+          <li>while loops</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>Functions allow code reuse and modular programming.</p>
+        <p>Define a function using the def keyword followed by a name and parameters.</p>
+        <p>Use return to return a value from a function.</p>
+        <p>You can define default parameter values.</p>
+        <p>Functions can accept arbitrary arguments using *args and **kwargs.</p>
+        <code>def greet(name):\n    return f"Hello, {name}"</code>
+        <code>def add(a, b=0):\n    return a + b</code>
+        <ul>
+          <li>Reusable code</li>
+          <li>Organizes logic</li>
+          <li>Supports parameters</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Modules_and_Packages">
+        <header>Modules and Packages</header>
+        <p>Modules allow you to split your code across files.</p>
+        <p>Use the import statement to use modules.</p>
+        <p>Packages are directories with an `__init__.py` file.</p>
+        <p>Python has many built-in modules and a large external library ecosystem.</p>
+        <p>You can install packages using pip.</p>
+        <code>import math</code>
+        <code>from datetime import datetime</code>
+        <ul>
+          <li>Modular development</li>
+          <li>Code reuse</li>
+          <li>Rich standard library</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: #20232a;
+  color: white;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  display: block;
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#main-doc {
+  margin-left: 260px;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.main-section {
+  margin-bottom: 3rem;
+}
+
+code {
+  display: block;
+  background: #f4f4f4;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-left: 3px solid #20232a;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    padding: 1rem;
+  }
+}
+
+
+** end of undefined **
+
